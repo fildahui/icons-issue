@@ -1,0 +1,19 @@
+{
+  "name": "icons-issue",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "install:app": "cd app && yarn && npm run start",
+    "start": "npm run install:app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fildahui/icons-issue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fildahui/icons-issue/issues"
+  },
+  "homepage": "https://github.com/fildahui/icons-issue#readme"
+}
