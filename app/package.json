@@ -15,7 +15,7 @@
   "scripts": {
     "build791":"cd ../test-lib-7791 && npm link && npm run build",
     "build790":"cd ../test-lib-7790 && npm link && npm run build",
-    "build": "npm run build790 && npm link test-lib-7790 && npm run build791 && npm link test-lib-7790",
+    "build": "npm run build790 && npm link ../test-lib-7790 && npm run build791 && npm link ../test-lib-7791",
     "start": "react-scripts start"
   },
   "eslintConfig": {
