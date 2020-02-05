@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "install:app": "cd app && yarn && npm run start",
+    "install:app": "cd app && npm run build && yarn && npm start",
     "start": "npm run install:app"
   },
   "repository": {
