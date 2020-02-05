@@ -13,7 +13,7 @@ const registerComponentIcons = () => {
       },
       fontFace: {
          fontFamily: `"Font Awesome 5 Brands"`,
-         fontStyle: 'normal',
+         fontStyle: 'normal'
       },
       icons: {
          ArrowUpCircle: '\uf35b',
