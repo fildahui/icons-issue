@@ -1,6 +1,5 @@
 import path from 'path';
 import babel from 'rollup-plugin-babel';
-import commonjs from '@rollup/plugin-commonjs';
 import resolve from '@rollup/plugin-node-resolve';
 
 const dir = path.join(__dirname, 'dist/');
@@ -18,10 +17,6 @@ const babelOptions = {
    ]
 };
 
-const commonjsOptions = {
-   include: ['./index.js']
-};
-
 export default {
    external: ['react', 'react-dom', 'prop-types'],
    input: ['./index.js'],
@@ -37,13 +32,8 @@ export default {
    },
    plugins: [
       resolve({
-         extensions: ['.js', '.jsx', '.json', '.css', '.scss'],
-         // customResolveOptions: {
-         //    moduleDirectory: 'node_modules'
-         // },
-         // browser: true
+         extensions: ['.js', '.jsx', '.json', '.css', '.scss']
       }),
-      babel(babelOptions),
-      //commonjs(commonjsOptions)
+      babel(babelOptions)
    ]
 };

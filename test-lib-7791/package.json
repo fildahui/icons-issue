@@ -15,7 +15,6 @@
     "@babel/core": "7.3.4",
     "@babel/preset-env": "7.3.4",
     "@babel/preset-react": "7.0.0",
-    "@rollup/plugin-commonjs": "^11.0.2",
     "@rollup/plugin-node-resolve": "^7.1.1",
     "office-ui-fabric-react": "7.79.1",
     "prop-types": "15.5.10",
